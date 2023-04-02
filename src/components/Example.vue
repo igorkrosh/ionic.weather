@@ -7,3 +7,7 @@ export default {
 	name: "Example",
 };
 </script>
+
+<style lang="scss">
+
+</style>

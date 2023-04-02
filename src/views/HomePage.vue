@@ -1,18 +1,11 @@
 <template lang="pug">
 IonPage
-    IonHeader(:translucent="true")
-        IonToolbar
-            IonTitle Blank
-    IonContent(:fullscreen="true")
-        IonHeader(collapse="condense")
-            IonToolbar
-                IonTitle(size="large") Blank!
-        div#container
-            strong Ready to create an app?
-            p
-                | Start with Ionic?
-                a(target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components")
-            Example
+    div#container
+        strong Ready to create an app?
+        p
+            | Start with Ionic?
+            a(target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components")
+        Example
 </template>
 
 <script setup>
